@@ -1,0 +1,38 @@
+<<!DOCTYPE html>
+  <!--フォント<link href="https://fonts.googleapis.com/css2?family=BIZ+UDMincho&display=swap" rel="stylesheet">-->
+
+  <html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <link href="styles/style.css" rel="stylesheet">
+    <title>テストサイト</title>
+    <style>
+      * {
+        padding: 0
+        margin: 0;
+      }
+
+      canvas {
+        background: #eee;
+        display: block;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>sakumaシステムの制御画面</h1>
+    <h2>これがメタン発酵槽</h2>
+    <img src="images/anaero.png" alt="My test image">
+    <p>ここに以下の情報を表示していく</p>
+    <ul id="my-id">
+      <li>温度</li>
+      <li>pH</li>
+      <li>前の実行時間とか</li>
+    </ul>
+    <button>ユーザーを変更</button>
+    <script src="scripts/main.js"></script>
+  </body>
+
+  </html>
